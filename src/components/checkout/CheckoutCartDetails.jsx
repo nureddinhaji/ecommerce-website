@@ -2,7 +2,7 @@ import { useMemo } from "react";
 import useUser from "../../contexts/UserContext";
 import bkash from "../../images/bkash.webp";
 import visa from "../../images/visa.webp";
-import masterCard from "../../images/masterCard.webp";
+import masterCard from "../../images/mastercard.webp";
 import bank from "../../images/bank.webp";
 import Button from "../Button";
 import { useTranslation } from "react-i18next";
