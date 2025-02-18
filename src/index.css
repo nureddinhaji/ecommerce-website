@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+
+@theme {
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1170px;
+  --breakpoint-2xl: initial;
+
+  --color-s-red: #DB4444;
+  --color-s-red-light: #E07575;
+  --color-s-dark-gray: #2F2E30;
+
+  --font-inter: "Inter", sans-serif;
+}
+
+
+
+.lang-en body {
+  font-family: "Poppins", serif;
+}
+
+.lang-ar body {
+  font-family: "Readex Pro", serif;
+}
+
+.fcenter {
+  @apply flex items-center justify-center;
+}
+
+.container {
+  @apply mx-auto px-5 md:px-0
+}
+
+input, textarea {
+  @apply outline-0
+}
+
+a:hover:not(.a_special) {
+  @apply text-s-red transition duration-300
+}
+
+button {
+  @apply cursor-pointer
+}
