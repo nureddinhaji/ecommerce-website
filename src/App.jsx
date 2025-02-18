@@ -51,7 +51,7 @@ function App() {
         if (user) {
             editUser(userData);
         }
-    }, [userData, user]);
+    }, [userData]);
 
     const location = useLocation();
 
